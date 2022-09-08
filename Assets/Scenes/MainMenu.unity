@@ -5723,7 +5723,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.7
+  m_fontSize: 27.35
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -24691,7 +24691,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.6
+  m_fontSize: 18
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -34177,6 +34177,11 @@ MonoBehaviour:
   - '[C] Volcano'
   - '[C] Bonus'
   - '[C] Desert'
+  - '[A] Battlefield'
+  - '[A] Underground'
+  - '[A] Castle'
+  - '[A] Tubes'
+  - '[A] Snow'
   debugMaps: []
   colorManager: {fileID: 1983555074}
 --- !u!4 &887693662
@@ -42336,7 +42341,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.6
+  m_fontSize: 18
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1

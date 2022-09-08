@@ -30,14 +30,14 @@ MonoBehaviour:
     m_Output: 1
     m_ColliderType: 1
     m_RandomTransform: 2
-    m_Neighbors: 010000000100000001000000010000000100000002000000
+    m_Neighbors: 010000000100000001000000010000000200000001000000
     m_NeighborPositions:
     - {x: 0, y: -1, z: 0}
     - {x: 1, y: -1, z: 0}
     - {x: -1, y: -1, z: 0}
-    - {x: -1, y: 0, z: 0}
     - {x: 1, y: 0, z: 0}
     - {x: 0, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
     m_RuleTransform: 0
   - m_Id: 1
     m_Sprites:
@@ -143,8 +143,9 @@ MonoBehaviour:
     - {x: 0, y: -1, z: 0}
     - {x: 1, y: 1, z: 0}
     m_RuleTransform: 2
-  siblings: []
+  siblings:
+  - {fileID: 11400000, guid: 7a46ac20d413e274992b275cf12214de, type: 2}
+  - {fileID: 11400000, guid: bd71969688526d147958360d93f58f52, type: 2}
   isBackgroundTile: 0
   iceSkidding: 0
   footstepSound: 32
-  frictionFactor: 1

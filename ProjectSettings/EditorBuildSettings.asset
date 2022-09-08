@@ -41,4 +41,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/CustomDesert.unity
     guid: 0a445e83695e8424e9e56da3e5b773e4
+  - enabled: 1
+    path: Assets/Scenes/Levels/AlternateGrassJoris.unity
+    guid: 66b800a76bd25db40b3fee8b489f66e7
+  - enabled: 1
+    path: Assets/Scenes/Levels/AlternateBricksJoris.unity
+    guid: 0fd014d7f501f024f8cd07787b3359e6
+  - enabled: 1
+    path: Assets/Scenes/Levels/AlternateCastleJoris.unity
+    guid: ca10485e5b327bf4aaef4e4b52403db7
+  - enabled: 1
+    path: Assets/Scenes/Levels/AlternatePipesJoris.unity
+    guid: 3da49f3327021ff4c8d6ac30bf63b572
+  - enabled: 1
+    path: Assets/Scenes/Levels/AlternateSnowJoris.unity
+    guid: 0ca123be3547db346bc8d0b4eb1674fd
   m_configObjects: {}

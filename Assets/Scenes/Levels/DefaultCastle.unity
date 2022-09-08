@@ -11514,7 +11514,7 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 4
-  animationTimeSeconds: 17
+  animationTimeSeconds: 5
 --- !u!1001 &379146488
 PrefabInstance:
   m_ObjectHideFlags: 0
