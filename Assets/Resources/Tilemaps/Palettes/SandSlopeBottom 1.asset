@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ffb1820c005ca6489850e83a844726b, type: 3}
+  m_Name: SandSlopeBottom 1
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: -5225856, guid: 061407bda014eea4b8e209414b7d1203, type: 3}
+  m_DefaultGameObject: {fileID: 0}
+  m_DefaultColliderType: 1
+  m_TilingRules: []
+  siblings:
+  - {fileID: 11400000, guid: ab90994edce0a5041aedac6720804442, type: 2}
+  - {fileID: 11400000, guid: bd71969688526d147958360d93f58f52, type: 2}
+  isBackgroundTile: 0
+  iceSkidding: 0
+  footstepSound: 32
