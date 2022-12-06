@@ -56,4 +56,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/AlternateSnowJoris.unity
     guid: 0ca123be3547db346bc8d0b4eb1674fd
+  - enabled: 1
+    path: Assets/Scenes/Levels/AlternateJungle.unity
+    guid: 845f0675f73df4448a7526a4df0fad47
+  - enabled: 1
+    path: Assets/Scenes/Levels/AlternateSky.unity
+    guid: bf9b5f5b0af2846409a3c27d13a90e35
+  - enabled: 1
+    path: Assets/Scenes/Levels/AlternateVolcano.unity
+    guid: 2dce42b35c6da3940aaf45e4ceda6783
   m_configObjects: {}
