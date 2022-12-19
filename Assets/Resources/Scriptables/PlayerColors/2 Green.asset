@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8b0cb6c1d54e5428273c6662ede73f, type: 3}
   m_Name: 2 Green
   m_EditorClassIdentifier: 
-  index: 2
   colors:
   - player: {fileID: 0}
-    hatColor: {r: 0, g: 0.3962264, b: 0.20370966, a: 1}
-    overallsColor: {r: 0.10588236, g: 0.89019614, b: 0.43529415, a: 1}
+    hatColor: {r: 0.61960787, g: 0.015686275, b: 0.6039216, a: 1}
+    overallsColor: {r: 0.509434, g: 0.43473533, b: 0.15571378, a: 1}

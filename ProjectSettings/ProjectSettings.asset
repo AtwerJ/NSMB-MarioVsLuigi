@@ -166,6 +166,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -303,7 +304,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 3536fc6b994f807498f0df6fa85fd2fe, type: 3}
+      m_Icon: {fileID: 2800000, guid: d02ff3d43c4ff9c4b99e1a8c68965884, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -917,6 +918,7 @@ PlayerSettings:
     Build: 0
     Collab: 0
     Game Performance: 0
+    Legacy Analytics: 0
     Purchasing: 0
     UDP: 0
     UNet: 1
@@ -934,11 +936,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 1
-  cloudProjectId: 3c43f6a5-de2f-4b33-8870-8e6e50f8d55b
+  cloudProjectId: 14e5682b-3b39-4d07-b50c-70e52a5a1592
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: mariooo
-  organizationId: danny-a-4565693
+  projectName: NSMB-MarioVsLuigi
+  organizationId: atwer
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
