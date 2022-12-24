@@ -184,6 +184,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 008eef3beeda7424d8dbd4dcfb5f1949, type: 2}
   - {fileID: 11400000, guid: de699f2ab41a645468ef0e5e3b6bb74b, type: 2}
   - {fileID: 11400000, guid: 4c2ac97eb99a4754990584e8c9bf5ea7, type: 2}
+  - {fileID: 11400000, guid: 431c12767eda30743afcf80bd6f74a59, type: 2}
+  - {fileID: 11400000, guid: db195a4298c273342ac08a64bcd5b87f, type: 2}
   isBackgroundTile: 0
   iceSkidding: 0
   footstepSound: 93
