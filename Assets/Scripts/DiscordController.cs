@@ -16,7 +16,7 @@ public class DiscordController : MonoBehaviour {
         return;
 #endif
 
-        discord = new Discord.Discord(962073502469459999, (ulong) CreateFlags.NoRequireDiscord);
+        discord = new Discord.Discord(1062521124530946109, (ulong) CreateFlags.NoRequireDiscord);
         activityManager = discord.GetActivityManager();
         activityManager.OnActivityJoinRequest += AskToJoin;
         activityManager.OnActivityJoin += TryJoinGame;
@@ -82,16 +82,16 @@ public class DiscordController : MonoBehaviour {
             GameManager gm = GameManager.Instance;
             Room room = PhotonNetwork.CurrentRoom;
 
-            activity.Details = PhotonNetwork.OfflineMode ? "Playing Offline" : "Playing Online";
+            activity.Details = PhotonNetwork.OfflineMode ? "Partaking In a Offline Game (not possible shut up)" : "Partaking In a Online Game";
             activity.Party = new() { Size = new() { CurrentSize = room.PlayerCount, MaxSize = room.MaxPlayers }, Id = PhotonNetwork.CurrentRoom.Name };
-            activity.State = room.IsVisible ? "In a Public Game" : "In a Private Game";
+            activity.State = room.IsVisible ? "In a Unlocked Game" : "In a Locked Game";
             activity.Secrets = new() { Join = PhotonNetwork.CloudRegion + "-" + room.Name };
 
             ActivityAssets assets = new();
             if (gm.richPresenceId != "")
                 assets.LargeImage = $"level-{gm.richPresenceId}";
             else
-                assets.LargeImage = "mainmenu";
+                assets.LargeImage = "joris-mainmenu";
             assets.LargeText = gm.levelName;
 
             activity.Assets = assets;
@@ -106,21 +106,22 @@ public class DiscordController : MonoBehaviour {
             //in a room
             Room room = PhotonNetwork.CurrentRoom;
 
-            activity.Details = PhotonNetwork.OfflineMode ? "Playing Offline" : "Playing Online";
+            activity.Details = PhotonNetwork.OfflineMode ? "Partaking In a Offline Game (not possible shut up)" : "Partaking In a Online Game";
             activity.Party = new() { Size = new() { CurrentSize = room.PlayerCount, MaxSize = room.MaxPlayers }, Id = PhotonNetwork.CurrentRoom.Name };
-            activity.State = room.IsVisible ? "In a Public Lobby" : "In a Private Lobby";
+            activity.State = room.IsVisible ? "In a Unlocked Lobby" : "In a Locked Lobby";
             activity.Secrets = new() { Join = PhotonNetwork.CloudRegion + "-" + room.Name };
 
-            activity.Assets = new() { LargeImage = "mainmenu" };
+            activity.Assets = new() { LargeImage = "joris-mainmenu" };
 
         } else {
             //in the main menu, not in a room
 
-            activity.Details = "Browsing the Main Menu...";
-            activity.Assets = new() { LargeImage = "mainmenu" };
+            activity.Details = "Browsing the Joris Mod Main Menu...";
+            activity.Assets = new() { LargeImage = "joris-mainmenu" };
 
         }
 
+            //Leafy says hi in the code i did discord stuff!! 
 
         activityManager.UpdateActivity(activity, (res) => {
             //head empty.
